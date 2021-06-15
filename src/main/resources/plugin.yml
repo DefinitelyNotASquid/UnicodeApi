@@ -1,0 +1,13 @@
+name: UnicodeApi
+main: com.mith.UnicodeApi.UnicodeApi
+version: 1.0.0
+description: UnicodeApi for accessing the icon data from the texturepack
+author: Mithrillia
+api-version: 1.16
+commands:
+  apitest:
+    description: Does the Api test, be warned this will spam you.
+    usage: /apitest
+permissions:
+  unicodeapi.apitest:
+    default: true
