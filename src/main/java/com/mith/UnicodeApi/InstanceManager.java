@@ -25,7 +25,7 @@ public class InstanceManager {
 			.toList();
 
 	static List<Unicode> globalUnicodeFiltered =  Linq.of(UnicodeApi.getUniCodeList())
-			.where(cu -> cu.getType().equals(UnicodeType.EMOJI) && !cu.getRestricted())
+			.where(cu -> !cu.getRestricted())
 			.orderBy(Unicode::getName)
 			.toList();
 
