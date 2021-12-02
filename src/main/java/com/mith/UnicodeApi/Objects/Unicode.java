@@ -6,13 +6,15 @@ public class Unicode {
     private final String name;
     private final Enum<UnicodeType> type;
     private Integer customModel;
+    private final boolean restricted;
 
-    public Unicode(String unicodeCharacter, UnicodeType type, String name) {
+    public Unicode(String unicodeCharacter, UnicodeType type, String name, boolean restricted) {
         this.unicodeCharacter = unicodeCharacter;
         this.name = name;
         this.type = type;
+        this.restricted = restricted;
     }
-
+    public boolean getRestricted(){return this.restricted;}
     public String getUnicodeCharacter() {
         return this.unicodeCharacter;
     }

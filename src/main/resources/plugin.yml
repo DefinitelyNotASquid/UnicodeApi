@@ -3,11 +3,20 @@ main: com.mith.UnicodeApi.UnicodeApi
 version: 1.0.0
 description: UnicodeApi for accessing the icon data from the texturepack
 author: Mithrillia
-api-version: 1.16
+api-version: 1.18
 commands:
   apitest:
     description: Does the Api test, be warned this will spam you.
     usage: /apitest
+  apiname:
+    description: Looks up a name of a minecraft id.
+    usage: /apiname name
+  apiitem:
+    description: Looks up a name of item you are holding.
+    usage: /apiitem
+  apiallitems:
+    description: Does an Api test for all item stacks, be warned this will spam you.
+    usage: /apiallitems
 permissions:
-  unicodeapi.apitest:
+  unicodeapi.apicommands:
     default: true
