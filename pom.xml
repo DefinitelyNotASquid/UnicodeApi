@@ -6,7 +6,7 @@
 
     <groupId>com.mith</groupId>
     <artifactId>UnicodeApi</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.2</version>
     <name>UnicodeApi</name>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -23,13 +23,13 @@
         <dependency>
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
-            <version>1.18-R0.1-SNAPSHOT</version>
+            <version>1.19-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>com.bestvike</groupId>
             <artifactId>linq</artifactId>
-            <version>3.1.0</version>
+            <version>5.0.0</version>
         </dependency>
     </dependencies>
 

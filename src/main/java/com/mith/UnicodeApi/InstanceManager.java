@@ -10,7 +10,6 @@ import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.inventory.meta.PotionMeta;
 
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class InstanceManager {
 
@@ -24,10 +23,7 @@ public class InstanceManager {
 			.orderBy(Unicode::getName)
 			.toList();
 
-	static List<Unicode> globalUnicodeFiltered =  Linq.of(UnicodeApi.getUniCodeList())
-			.where(cu -> !cu.getRestricted())
-			.orderBy(Unicode::getName)
-			.toList();
+	static List<Unicode> globalUnicodeFiltered =  UnicodeApi.getUniCodeList();
 
 	static List<Unicode> discordUnicode = Linq.of(UnicodeApi.getUniCodeList())
 			.where(cu -> cu.getType().equals(UnicodeType.DISCORD))
