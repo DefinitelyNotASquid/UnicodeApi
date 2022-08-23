@@ -1,6 +1,6 @@
 name: UnicodeApi
 main: com.mith.UnicodeApi.UnicodeApi
-version: 1.0.2
+version: 1.0.3
 description: UnicodeApi for accessing the icon data from the texturepack
 author: Mithrillia
 api-version: 1.19
