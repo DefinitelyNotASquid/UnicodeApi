@@ -1,2 +1,2 @@
 # UnicodeApi
-Api for providing Uniform unicode sections to minecraft plugins
+Api for providing Uniform unicode sections to minecraft plugins.
